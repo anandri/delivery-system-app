@@ -1,6 +1,6 @@
 var config = module.exports;
 const mongoose = require("mongoose");
-mongoose.connect('mongodb://localhost:27017/admin',{
+mongoose.connect('mongodb+srv://admin:4uJE4xUDjYr1Pfin@cluster0.8rkjr.mongodb.net/dev-sys?retryWrites=true&w=majority',{
     useUnifiedTopology : true,
     useNewUrlParser : true,
     useFindAndModify : false
